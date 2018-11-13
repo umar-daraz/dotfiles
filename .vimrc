@@ -21,14 +21,17 @@ call plug#end()
 syntax enable
 let g:closetag_filenames = "*.html,*.xhtml,*.js"
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+"" Color scheme settings
 colorscheme gruvbox
-
 let g:gruvbox_contrast_dark = 'soft'
 set background=dark 
 set number
 
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
-set completeopt-=menu
-set completeopt-=menuone
 nmap <leader>n :NERDTreeToggle<cr>
+
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
