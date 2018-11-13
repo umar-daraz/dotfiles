@@ -19,10 +19,12 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install'  }
 call plug#end()
 
 syntax enable
-let g:gruvbox_contrast_dark = 'hard'
 let g:closetag_filenames = "*.html,*.xhtml,*.js"
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 colorscheme gruvbox
 
+let g:gruvbox_contrast_dark = 'soft'
+set background=dark 
 set number
 
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
