@@ -16,6 +16,11 @@ Plug 'morhetz/gruvbox'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'prettier/vim-prettier', { 'do': 'npm install'  }
+Plug 'ervandew/supertab'
+Plug 'tpope/vim-fireplace'
+Plug 'guns/vim-sexp'
+Plug 'tpope/vim-sexp-mappings-for-regular-people'
+Plug 'tpope/vim-salve'
 call plug#end()
 
 syntax enable
