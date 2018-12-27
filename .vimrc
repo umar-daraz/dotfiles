@@ -26,10 +26,14 @@ colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'soft'
 set background=dark 
 set number
+set wildmenu
+set path+=**
 
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 nmap <leader>n :NERDTreeToggle<cr>
+:nnoremap <C-b> :bprevious<CR>
+:nnoremap <C-n> :bnext<CR>
 
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
